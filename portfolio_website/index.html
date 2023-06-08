@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <span class="name">MY PORTFOLIO</span>
+        <span class="navlinks">
+            <button onclick="window.location.href = 'pages/SignIn.html';" id="btn">Sign in</button></a>
+            <button onclick="window.location.href = 'pages/Contact.html';" id="btn">Contact</button></a>
+            <button onclick="window.location.href = 'pages/About.html';" id="btn">About</button></a>
+            <button onclick="window.location.href = 'pages/Home.html';" class="active" id="btn">Home</button>
+        </span>
+    </nav>
+    <div class="home_content">
+        <p class="welcome">Welcome</p>
+        <span class="entrybox">
+            <p class="register_text">
+                <font size="+2">Please Sign Up <br><br></font>
+            </p>
+            <input type="number" style="height: 2rem;width: 20rem;" placeholder="PHONE NUMBER HERE" size="">
+        </span>
+        <span>
+            <button onclick="window.location.href = 'pages/Home.html';" class="getotp">Sign Up</button>
+        </span>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

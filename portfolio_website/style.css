@@ -1,0 +1,208 @@
+body {
+    margin: 0;
+    background-image: url("https://wallpapercave.com/wp/wp3085127.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 97.4%;
+    height: 2rem;
+}
+
+.fixed-navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.navbar:nth-child(1) {
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: left;
+    padding: 22px 20px;
+    font-weight: bold;
+}
+
+.navbar button {
+    background-color: #333;
+    color: #f2f2f2;
+    border: none;
+    text-decoration: none;
+    font-size: 23px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding: 4px 20px;
+    float: right;
+    font-weight: 100;
+    height: 3rem;
+}
+
+.navbar button:hover,
+.getotp:hover {
+    background-color: #ddd;
+    color: #333;
+    cursor: pointer;
+}
+
+.navbar button.active {
+    background-color: #ddd;
+    color: #333;
+}
+
+.home_content,
+.container {
+    position: absolute;
+    top: 10rem;
+    left: 10rem;
+    color: white;
+}
+
+.entrybox {
+    position: relative;
+}
+
+.getotp {
+    position: relative;
+    left: 5rem;
+    padding: 8px;
+    background-color: transparent;
+    color: #ddd;
+    cursor: pointer;
+    border: 2px solid #ddd;
+}
+
+.getotp:hover {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.welcome,
+.container {
+    font-size: 100px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    font-size: 50px;
+    /* left: 5rem; */
+    /* right: 5rem; */
+    color: rgb(255, 255, 0);
+    text-align: center;
+}
+
+.line_1 {
+    margin: 0.5rem auto;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid transparent;
+    animation: typewriter_1 2s steps(22) 1s 1 normal both;
+}
+
+.line_2 {
+    margin: 0.5rem auto;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid transparent;
+    animation: typewriter_2 2s steps(35) 1s 1 normal both;
+    -webkit-animation-delay: 3.5s;
+    animation-delay: 3.5s;
+}
+
+.line_3 {
+    margin: 0.5rem auto;
+    border-right: 2px solid transparent;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typewriter_3 3s steps(45) 1s 1 normal both;
+    -webkit-animation-delay: 5.5s;
+    animation-delay: 5.5s;
+}
+
+@keyframes typewriter_1 {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 55%;
+    }
+}
+
+@keyframes typewriter_2 {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes typewriter_3 {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+.info {
+    position: absolute;
+    top: 10rem;
+    left: 10rem;
+    color: cyan;
+    font-size: 3rem;
+    font-style: italic;
+}
+
+.contact {
+    font-size: 2rem;
+}
+
+.linkedin {
+    font-size: 1.75rem;
+}
+
+.link {
+    color: yellow;
+}
+
+.signin {
+    position: absolute;
+    top: 10rem;
+    left: 38rem;
+    height: 30rem;
+    width: 22rem;
+    text-align: center;
+    padding: 15px;
+    margin: 0;
+    border: 5px solid white;
+    color: #ddd;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.submit {
+    font-size: 20px;
+    color: red;
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+.submit:hover {
+    font-size: 22px;
+    background-color: #ddd;
+    color: blue;
+    font-weight: bold;
+    cursor: pointer;
+}
