@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url("https://www.rd.ntt/_assets/img/research/JN202105_13510/JN202105_13510_main.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  h1 {
+    color: #fff;
+    margin-top: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  .container {
+    margin-top: 250px;
+    margin-right: 100px;
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .input-group {
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  label {
+    display: block;
+    color: white;
+    margin-bottom: 5px;
+  }
+
+  input[type="number"] {
+    padding: 5px;
+    width: 120px;
+  }
+
+  .output {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: yellow;
+  }
